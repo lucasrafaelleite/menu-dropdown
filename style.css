@@ -1,0 +1,13 @@
+/* 
+Open code is life
+*/
+
+	body {background:#f1f1f1;}
+		.container {width:1140px; margin:0 auto;}
+		
+		header {display:block; overflow:hidden; padding:50px; border-bottom:1px #ccc dotted; box-sizing:border-box;}
+			header h1 {font-size:70px; line-height:75px; font-family:'Arial', sans-serif; display:block; color:green; text-align:center; text-transform:uppercase; font-weight:bold;}
+			
+		
+		
+	
