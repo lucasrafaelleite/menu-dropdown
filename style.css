@@ -2,12 +2,23 @@
 Open code is life
 */
 
-	body {background:#f1f1f1;}
+	body {background:#f1f1f1; font-family:'Baloo Bhai', sans-serif;}
 		.container {width:1140px; margin:0 auto;}
 		
 		header {display:block; overflow:hidden; padding:50px; border-bottom:1px #ccc dotted; box-sizing:border-box;}
-			header h1 {font-size:70px; line-height:75px; font-family:'Arial', sans-serif; display:block; color:green; text-align:center; text-transform:uppercase; font-weight:bold;}
+			header h1 {font-size:70px; line-height:75px; display:block; color:green; text-align:center; text-transform:uppercase; font-weight:bold;}
+			header h2 {text-align:center; font-size:18px; line-height:24px;}
 			
 		
-		
-	
+		nav {background:#fff; border-bottom:1px #ccc dotted; border-radius:4px;}
+			nav > ul {padding:10px 0px; display:block; height:45px;}
+				nav > ul > li {float:left; position:relative; border-right:1px #ccc dotted;}
+				nav > ul > li:last-child {border-right:0px;}
+					nav > ul > li > a {display:block; padding:10px; font-size:14px; line-height:25px; color:#666; text-decoration:none; text-transform:uppercase;}
+					nav > ul > li:hover > a, nav > ul > li > a:hover {color:green;}
+					nav > ul > li > ul {display:none; background:#fff; padding:10px;}
+					nav  > ul  > li:hover  > ul {display:block; position:absolute; top:100%; width:200px;}
+						nav  > ul  > li:hover  > ul > li {display:block; width:100%;}
+							nav  > ul  > li:hover  > ul > li > a {display:block; padding:10px; color:#666; font-size:12px; text-decoration:none; border-bottom:1px #ccc dotted; border-radius:3px;}
+							nav  > ul  > li:hover  > ul > li > a:hover {background:green; color:#fff;}
+							nav  > ul  > li:hover  > ul > li:last-child > a {border-bottom:0px;}
